@@ -1,0 +1,26 @@
+.nav-link{
+    cursor: pointer;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #0d6efd;
+}
+.card{
+    cursor: pointer;
+}
+.card img{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.card:hover img{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+.navbar-brand:hover{
+    color: #0d6efd;
+}
